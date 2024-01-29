@@ -26,8 +26,8 @@ long double                                                                     
 Boolean type    bool
 Void type    void                                                                 //no storage
 Null pointer    decltype(nullptr)
-
  */
+
 #include <iostream>
 using namespace std;
 int main () {
