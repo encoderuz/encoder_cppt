@@ -53,19 +53,72 @@ Null pointer    decltype(nullptr)
 //    cout << "Total price: " << task_price * task_quantity << " \n";
 //        return 0;
 //}
+//#include <iostream>
+//#include <string>
+//#include <sstream>
+//using namespace std;
+//int main(){
+//    
+//    // The while method;
+//    
+//    int n = 10;
+//    while (n>0) {
+//        cout << n << ", ";
+//        --n;
+//    }
+//    cout << "liftoff!\n";
+//    return 0;
+//}
+
+
+//#include <iostream>
+//#include <string>
+//using namespace std;
+//
+//int main(){
+//    string str;
+//    do{
+//        cout << "Enter text: ";
+//        getline(cin,str);
+//        cout << "You entered: " << str << "\n";
+//    }while(str != "stop it");
+//}
+//#include <iostream>
+//#include <string>
+//using namespace std;
+//
+//int main(){
+//    for (int n=0, i=100 ; n!=i ; ++n, --i) {
+//        cout << "[" << i << "]" << n << "\n";
+//    }
+//    cout << "\n";
+//}
+
+
+//#include <iostream>
+//#include <string>
+//using namespace std;
+//
+//int main(){
+//    for (int i =0; i <= 10; i++){
+//        cout << "24 * " << i << "\t=\t" << 24 * i << "\n";
+//        cout << "[50] * [" << i << "]\t=\t[" << 50 * i << "]\n";
+//    }
+//}
+
+
 #include <iostream>
 #include <string>
-#include <sstream>
 using namespace std;
-int main(){
-    
-    // The while method;
-    
-    int n = 10;
-    while (n>0) {
-        cout << n << ", ";
-        --n;
-    }
-    cout << "liftoff!\n";
-    return 0;
-}
+
+//int main(){
+//    int sum = 0;
+//    for (int i = 0; i < 10; i++) {
+//        int x;
+//        cout << "Enter a number\n";
+//        cin>>x;
+//        sum += x;
+//    }
+//    cout << "Sum:" << sum << "The average value is " << sum/10.0 << '\n';
+//    return 0;
+//}
