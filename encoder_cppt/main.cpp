@@ -122,3 +122,81 @@ using namespace std;
 //    cout << "Sum:" << sum << "The average value is " << sum/10.0 << '\n';
 //    return 0;
 //}
+
+
+
+//
+//int main(){
+//    int i,j;
+//    for (j=1; j<=4; j++) {
+//        for (i=1; i<=j; i++) {
+//            cout << "*";
+//        }
+//        cout << "\n";
+//    }
+//}
+
+
+//int main(){
+//    int n = 3;
+//    for (int i =0; i < 2 * n + 1; i++) {
+//        cout << abs(i -n) << " | ";
+//        for (int j = 0; j < 2 * n + 1; j++) {
+//            
+//            if (abs(j -n) + abs(i -n) <= n) {
+////                cout << "-";
+//            }else{
+////                cout << " ";
+//            }
+//        }
+//        cout << endl;
+//    }
+//}
+//int main(){
+//    int n = 3;
+//    for (int i =0; i <= n * 2 + 1; i++) {
+//        for (int j = 0; j <= n * 2 + 1; j++) {
+//            if (abs(j -n) + abs(i -n) <= n) {
+//                cout << "*";
+//            }else{
+//                cout << " ";
+//            }
+//        }
+//        cout << "\n";
+//    }
+//    cout << "\n";
+//    return 0;
+//}
+//int main() {
+//    int n = 7;
+//    for (int i = 0; i < n; ++i) {
+//        for (int j = 0; j < i; ++j) {
+//            cout << " ";
+//        }
+//        for (int k = 0; k < n - i; ++k) {
+//            if (k % 2 == 0) {
+//                cout << "0";
+//            } else {
+//                cout << "1";
+//            }
+//        }
+//        cout << endl;
+//    }
+//    return 0;
+//}
+//int main (){
+//    for (int i = 0; i <= 6; ++i) {
+//           for (int j = 0; j < 10; ++j) {
+//               if (j % 2 == 0 || i % 2 == 0) {
+//                   cout << 0 << " " ;
+//               }else{
+//                   cout << 1 << " ";
+//               }
+//           }
+//           cout << endl;
+//       }
+//    return 0;
+//}
+int main(){
+    
+}
