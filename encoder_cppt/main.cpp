@@ -53,3 +53,19 @@ Null pointer    decltype(nullptr)
 //    cout << "Total price: " << task_price * task_quantity << " \n";
 //        return 0;
 //}
+#include <iostream>
+#include <string>
+#include <sstream>
+using namespace std;
+int main(){
+    
+    // The while method;
+    
+    int n = 10;
+    while (n>0) {
+        cout << n << ", ";
+        --n;
+    }
+    cout << "liftoff!\n";
+    return 0;
+}
