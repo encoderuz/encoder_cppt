@@ -29,8 +29,15 @@ Null pointer    decltype(nullptr)
  */
 
 #include <iostream>
+#include <string>
 using namespace std;
+void func1();
+void func2();
+
+#define NEWLINE '\n';
 int main () {
-    
+    int i;
+    cout << "My age is: " << (i = 26) << endl;
+
     
 }
