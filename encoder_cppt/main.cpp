@@ -28,16 +28,28 @@ Void type    void                                                               
 Null pointer    decltype(nullptr)
  */
 
-#include <iostream>
-#include <string>
-using namespace std;
-void func1();
-void func2();
-
-#define NEWLINE '\n';
-int main () {
-    int i;
-    cout << "My age is: " << (i = 26) << endl;
-
-    
-}
+//#include <iostream>
+//#include <string>
+//#include <sstream>
+//using namespace std;
+//void func1();
+//void func2();
+//
+//#define NEWLINE '\n';
+//int main () {
+//    string mystr;
+//    int task_price;
+//    int task_quantity;
+//    cout << "Ask me, how much your work ? \n";
+//    getline(cin, mystr);
+//    stringstream(mystr) >> task_price;
+//    cout << "Yeah! Your task price is " << task_price << " \n";
+//    cout << "Then, ask me your task quantity \n";
+//    getline(cin, mystr);
+//    stringstream(mystr) >> task_quantity;
+//    cout << "Your task quantitys is " << task_quantity << " \n";
+//    
+//    cout << "Your task price is ---- " << task_price << "and your task quantity " << task_quantity;
+//    cout << "Total price: " << task_price * task_quantity << " \n";
+//        return 0;
+//}
