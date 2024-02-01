@@ -280,7 +280,22 @@ long factorial(long a){
         return 1;
     }
 }
+
+int loop_1(){
+    int i,j,k;
+    i = 5;
+    for (j = 0; j <= i; ++j) {
+        for (k =0; k <= i; ++k) {
+            if (k ==0 || j == 0 || k == i || j == i) {
+                cout << 0 << " ";
+            }else{
+                cout << 1 << " ";
+            }
+        }
+        cout << endl;
+    }
+    return 0;
+}
 int main (){
-    int n = 9;
-    echo(factorial(n) );
+    
 }
