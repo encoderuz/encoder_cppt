@@ -197,6 +197,90 @@ using namespace std;
 //       }
 //    return 0;
 //}
-int main(){
-    
+//int main(){
+//    // Define the size of the square
+//        int n = 4;
+//
+//        // Use nested loops to print the pattern
+//        for (int i = 0; i < n; i++) { // This loop is for rows
+//            for (int j = 0; j < n; j++) { // This loop is for columns
+////                cout << (i == n - 1); break;
+////                cout << (j == n - 1) << " ----  ";
+//                // Print 1 if we're on the border, otherwise print 0
+//                if (i == 0 || i == n - 1 || j == 0 || j == n - 1) {
+//                    std::cout << "1 ";
+//                } else {
+//                    std::cout << "0 ";
+//                }
+//            }
+//            // After each row, print a newline character
+//            std::cout << std::endl;
+//        }
+//
+//        return 0;
+//}
+
+
+//int main (){
+//    int n = 6;
+//    for (int i = 0; i <= n; ++i) {
+//        for (int j =0; j <= n; ++j) {
+////            cout << i + j << " ";
+//            if (i == 0 || i == n || j == n) {
+//                cout << 0 << " " ;
+//            }else{
+//                if (j == (n /2) || i == (n /2) || j == 0) {
+//                    cout << 0 << " ";
+//                }else{
+//                    cout << 1 << " ";
+//                }
+//            }
+//        }
+//        cout << endl;
+//    }
+//    return 0;
+//}
+
+
+// FUNCTIONS IN C++
+
+void echo(auto string_value, bool endline = true){
+    (endline == false) ? cout << string_value : cout << string_value << endl;
+}
+string concatenate(const string a, const string b){
+    return a + b;
+}
+void odd(int x);
+void even(int x);
+
+
+void odd(int x){
+    if ((x % 2) !=0) echo("This is odd: ");
+    else even(x);
+}
+void even(int x){
+    if ( ( x % 2 ) == 0) echo("This is even: ");
+    else odd(x);
+}
+int add_func(){
+    int i;
+    do{
+        echo ("Plese enter a number (0 to exit)");
+        cin >> i;
+        odd(i);
+    }
+    while (i!=0);
+    return 0;
+}
+
+long factorial(long a){
+    if (a > 1) {
+        return (a * factorial(a -1));
+    }else{
+        return 1;
+    }
+}
+int main (){
+    int n = 9;
+    echo(factorial(n) );
 }
