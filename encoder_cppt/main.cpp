@@ -109,6 +109,7 @@ Null pointer    decltype(nullptr)
 
 #include <iostream>
 #include <string>
+#include <cmath>
 using namespace std;
 
 //int main(){
@@ -296,6 +297,54 @@ int loop_1(){
     }
     return 0;
 }
-int main (){
-    
+
+// Templates
+
+namespace encoder {
+    int echo(auto string_value, bool endline = true){
+        endline == true ? cout << string_value << endl : cout << string_value;
+    }
+}
+template <class Encoder>
+Encoder ovrld(Encoder a, Encoder b){
+    return a + b;
+}
+
+int cryptography(){
+    unsigned char a, b, tmp, c1, c2;
+        scanf("%c", &a); //Первый ключ
+        scanf("%c", &c1); //Пробел
+        scanf("%c", &b); //Второй ключ
+        scanf("%c", &c1); //Пробел
+        while (EOF != scanf("%c", &c1)) //Пока не кончатся входные данные
+        {
+            scanf("%c", &c2);
+            tmp=round((c1-b+256*c2)*1.0/a);
+            printf("%c", tmp);
+        }
+        return 0;
+}
+
+ 
+#define WIDTH 5
+
+#define HEIGHT 3
+
+
+
+int jimmy [HEIGHT][WIDTH];
+
+int n,m;
+
+
+
+int main ()
+
+{
+
+    char myword[] = {'A','b','d','u','q','o','d','i','r','\0'};
+    auto arr = "E";
+     auto addr = *arr;
+    cout << addr << " - " << endl;
+        return 0;
 }
