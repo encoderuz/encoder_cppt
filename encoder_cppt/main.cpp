@@ -6,7 +6,7 @@
 #include <cstdlib>
 #include <IOKit/IOKitLib.h>
 #include <unistd.h>
-
+#include "enc.h"
 using namespace std;
 namespace fs = filesystem;
 void mycommand(){
@@ -151,6 +151,6 @@ int envList(){
     return 0;
 }
 int main (){
-    envList();
+    cout << "Hello" << endl;
     return 0;
 }
